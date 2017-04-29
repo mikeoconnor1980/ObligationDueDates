@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObligationDueDates", "ObligationDueDates\ObligationDueDates.csproj", "{5C9A2728-EE25-4A39-B399-B3B0C3FAED79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObligationDueDates.API", "ObligationDueDates.API\ObligationDueDates.API.csproj", "{312CCBC9-EE7C-46E8-96CF-63254A317446}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{6A0E6ACE-C588-4ABF-96AF-11CC99B828E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObligationDueDates.Objects", "ObligationDueDates.Objects\ObligationDueDates.Objects.csproj", "{B1D94867-54D7-450F-BC19-CE3711BF91C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObligationDueDates.Data", "ObligationDueDates.Data\ObligationDueDates.Data.csproj", "{95D21436-3F82-4919-A03A-95D39E6F3627}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocumentDBLibrary", "DocumentDBLibrary\DocumentDBLibrary.csproj", "{76AE22C3-00A9-417D-83C8-F618B2FDA2CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +19,27 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5C9A2728-EE25-4A39-B399-B3B0C3FAED79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5C9A2728-EE25-4A39-B399-B3B0C3FAED79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5C9A2728-EE25-4A39-B399-B3B0C3FAED79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5C9A2728-EE25-4A39-B399-B3B0C3FAED79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312CCBC9-EE7C-46E8-96CF-63254A317446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312CCBC9-EE7C-46E8-96CF-63254A317446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312CCBC9-EE7C-46E8-96CF-63254A317446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312CCBC9-EE7C-46E8-96CF-63254A317446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1D94867-54D7-450F-BC19-CE3711BF91C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D94867-54D7-450F-BC19-CE3711BF91C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D94867-54D7-450F-BC19-CE3711BF91C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D94867-54D7-450F-BC19-CE3711BF91C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D21436-3F82-4919-A03A-95D39E6F3627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D21436-3F82-4919-A03A-95D39E6F3627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D21436-3F82-4919-A03A-95D39E6F3627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D21436-3F82-4919-A03A-95D39E6F3627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76AE22C3-00A9-417D-83C8-F618B2FDA2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AE22C3-00A9-417D-83C8-F618B2FDA2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AE22C3-00A9-417D-83C8-F618B2FDA2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AE22C3-00A9-417D-83C8-F618B2FDA2CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{312CCBC9-EE7C-46E8-96CF-63254A317446} = {6A0E6ACE-C588-4ABF-96AF-11CC99B828E5}
 	EndGlobalSection
 EndGlobal

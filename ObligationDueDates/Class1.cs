@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ObligationDueDates
+namespace ObligationDueDates2
 {
     public class Class1
     {
